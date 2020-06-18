@@ -1,0 +1,203 @@
+{
+    "5d8bdc6fa46e4": {
+        "id": "5d8bdc6fa46e4",
+        "email": "a@a.com",
+        "password": "123456",
+        "image": "images\/default.png",
+        "isAgent": 1,
+        "properties": {
+            "5d8bdca09f259": {
+                "price": "250000",
+                "bedrooms": "3",
+                "ba": "2",
+                "sqm": "400",
+                "zipcode": "2347",
+                "image": "images\/5d8bdca09f1df.jpg",
+                "geometry": {
+                    "coordinates": [
+                        12.5361659999999996983888195245526731014251708984375,
+                        55.69000000000000483169060316868126392364501953125
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "iconSize": [
+                        20,
+                        20
+                    ],
+                    "message": "Foo"
+                },
+                "type": "Feature",
+                "id": "5d8bdca09f259"
+            },
+            "5d8bdcbd935e7": {
+                "price": "100000",
+                "bedrooms": "4",
+                "ba": "7",
+                "sqm": "5000",
+                "zipcode": "3412",
+                "image": "images\/5d8bdcbd9359e.jpg",
+                "geometry": {
+                    "coordinates": [
+                        12.546165999999999485225998796522617340087890625,
+                        55.70000000200000300765168503858149051666259765625
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "iconSize": [
+                        20,
+                        20
+                    ],
+                    "message": "Foo"
+                },
+                "type": "Feature",
+                "id": "5d8bdcbd935e7"
+            },
+            "5d8bdce2359e4": {
+                "price": "500000",
+                "bedrooms": "7",
+                "ba": "5",
+                "sqm": "1500",
+                "zipcode": "4772",
+                "image": "images\/5d8bdce23596f.jpg",
+                "geometry": {
+                    "coordinates": [
+                        12.5761659999999988457375366124324500560760498046875,
+                        55.70000000200000300765168503858149051666259765625
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "iconSize": [
+                        20,
+                        20
+                    ],
+                    "message": "Foo"
+                },
+                "type": "Feature",
+                "id": "5d8bdce2359e4"
+            },
+            "5d8bdd04a4ee9": {
+                "price": "150000",
+                "bedrooms": "4",
+                "ba": "2",
+                "sqm": "700",
+                "zipcode": "9212",
+                "image": "images\/5d8bdd04a4e79.jpg",
+                "geometry": {
+                    "coordinates": [
+                        12.578165999999999513647708226926624774932861328125,
+                        55.700000049999999873762135393917560577392578125
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "iconSize": [
+                        20,
+                        20
+                    ],
+                    "message": "Foo"
+                },
+                "type": "Feature",
+                "id": "5d8bdd04a4ee9"
+            },
+            "5d8bdd1fe0b32": {
+                "price": "200000",
+                "bedrooms": "7",
+                "ba": "5",
+                "sqm": "1350",
+                "zipcode": "1242",
+                "image": "images\/5d8bdd1fe0af5.jpg",
+                "geometry": {
+                    "coordinates": [
+                        12.546165999999999485225998796522617340087890625,
+                        55.70000002040000453007451142184436321258544921875
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "iconSize": [
+                        20,
+                        20
+                    ],
+                    "message": "Foo"
+                },
+                "type": "Feature",
+                "id": "5d8bdd1fe0b32"
+            },
+            "5d8bdd43caf84": {
+                "price": "100000",
+                "bedrooms": "4",
+                "ba": "1",
+                "sqm": "500",
+                "zipcode": "2434",
+                "image": "images\/5d8bdd43caee6.jpg",
+                "geometry": {
+                    "coordinates": [
+                        12.5561659999999992720631780684925615787506103515625,
+                        55.7000000000000028421709430404007434844970703125
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "iconSize": [
+                        20,
+                        20
+                    ],
+                    "message": "Foo"
+                },
+                "type": "Feature",
+                "id": "5d8bdd43caf84"
+            },
+            "5d8bdd81c0fb7": {
+                "price": "100000",
+                "bedrooms": "4",
+                "ba": "2",
+                "sqm": "1000",
+                "zipcode": "1233",
+                "image": "images\/5d8bdd81c0f80.jpg",
+                "geometry": {
+                    "coordinates": [
+                        12.5561659999999992720631780684925615787506103515625,
+                        55.7000000000000028421709430404007434844970703125
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "iconSize": [
+                        20,
+                        20
+                    ],
+                    "message": "Foo"
+                },
+                "type": "Feature",
+                "id": "5d8bdd81c0fb7"
+            },
+            "5d912d315fa11": {
+                "price": "400000",
+                "bedrooms": "5",
+                "ba": "5",
+                "sqm": "5",
+                "zipcode": "5244",
+                "image": "images\/5d912d315f9de.jpg",
+                "geometry": {
+                    "coordinates": [
+                        12.5561659999999992720631780684925615787506103515625,
+                        55.7000000000000028421709430404007434844970703125
+                    ],
+                    "type": "Point"
+                },
+                "properties": {
+                    "iconSize": [
+                        20,
+                        20
+                    ],
+                    "message": "Foo"
+                },
+                "type": "Feature",
+                "id": "5d912d315fa11"
+            }
+        }
+    }
+}

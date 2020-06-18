@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="">
+  <title>Search</title>
+</head>
+
+<body>
+  <div id="search-container">
+    <form id="frmSearch">
+      <input name="search" id="txtSearch" type="text" placeholder="Search" maxlength="5">
+    </form>
+    <div id="results"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+  <script>
+
+    const txtSearch = document.querySelector('#txtSearch')
+    const divResults = document.getElementById('results')
+    txtSearch.addEventListener('input', function () {
+
+      if ($('#txtSearch').val().length == 0) {
+        $('#txtSearch').removeClass('error');
+        $('#results').hide();
+        return;
+      }
+
+      if ($('#txtSearch').val().length < 2) {
+        $('#txtSearch').addClass('error');
+        return;
+      }
+
+      if ($('#txtSearch').val().length > 2) {
+        $('#txtSearch').removeClass('error');
+        return;
+      }
+
+      $.ajax({
+        url: "api-search-test.php",
+        data: $('#frmSearch').serialize(),
+        dataType: "JSON"
+      }).done(function (matches) {
+        console.log(matches)
+        $('#results').empty();
+        $(matches).each(function (i, zip) {
+          zip = zip.replace(/</g, '&lt;');
+          zip = zip.replace(/>/g, '&gt;');
+          let divZip = `<a href='properties.php?zipcode=${zip}'><div> ${zip} </div></a>`;
+          $('#results').append(divZip);
+        });
+
+      }).fail(function () {
+        console.log('Error')
+      })
+
+
+
+      if (txtSearch.value.length == 0) {
+        divResults.style.display = 'none'
+      } else {
+        divResults.style.display = 'block'
+      }
+    })
+  </script>
+
+
+
+
+
+</body>
+
+</html>
