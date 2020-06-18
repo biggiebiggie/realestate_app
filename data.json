@@ -1,0 +1,15 @@
+{
+    "agents": {
+        "5d76c0cfae0d3": {
+            "name": "test",
+            "password": "test123",
+            "properties": {}
+        }
+    },
+    "users": {
+        "5d76c11f6877c": {
+            "name": "usertest",
+            "password": "test123"
+        }
+    }
+}

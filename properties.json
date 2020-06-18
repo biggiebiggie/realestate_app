@@ -1,0 +1,37 @@
+{
+  "P1": {
+    "image": "1.jpg",
+    "price": 350000,
+    "bedrooms": 4,
+    "ba": 3,
+    "sqm": 2300
+  },
+  "P2": {
+    "image": "2.jpg",
+    "price": 400000,
+    "bedrooms": 3,
+    "ba": 4,
+    "sqm": 1800
+  },
+  "P3": {
+    "image": "3.jpg",
+    "price": 270000,
+    "bedrooms": 4,
+    "ba": 3,
+    "sqm": 2300
+  },
+  "P4": {
+    "image": "4.jpg",
+    "price": 500000,
+    "bedrooms": 4,
+    "ba": 3,
+    "sqm": 2300
+  },
+  "P5": {
+    "image": "5.jpg",
+    "price": 240000,
+    "bedrooms": 4,
+    "ba": 3,
+    "sqm": 2300
+  }
+}

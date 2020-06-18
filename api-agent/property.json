@@ -1,0 +1,18 @@
+{
+    "price": 20,
+    "address": {
+        "zip": "2400",
+        "street": "Lygten",
+        "number": "16"
+    },
+    "uploadedDate": 1567586138,
+    "size": {
+        "value":500,
+        "unit":"meters"
+        },
+    "images": [
+        "PATH",
+        "PATH",
+        "PATH"
+    ]
+}
